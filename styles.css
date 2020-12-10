@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(68, 67, 67);
+}
+div{
+    margin:auto;
+    color: white;
+    
+}
+section{
+    display: flex;
+    width: 673px;
+    padding-bottom: ;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0%;
+    padding: 5%;
+   justify-content: flex-end;
+   margin-bottom: 10px;
+   
+}
+nav ul li a {
+    color: white;
+    
+}
+li{
+    padding: 5px;
+}
+h3{
+    margin-left:20% ;
+    color: white;
+}
+header{
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+h1{
+    font-size: 2.5rem;
+}
+header{
+    margin-top: 20px;
+}
+ header button{
+    padding: 5px 10px 5px 10px;
+    background-color: white;  
+    border-radius: 3px;
+}
