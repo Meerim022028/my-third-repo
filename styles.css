@@ -71,7 +71,8 @@ footer p {
 }
  .footer {
   color: white;
-  padding-bottom: 5%;
+  padding-bottom: 15%;
+  display: flex;
 }
 @media (max-width: 720px) {
   header {
