@@ -1,98 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,500&display=swap");
 
-body{
-    background-color: #212529;
-    background-color: #212529 ;
-    font-family: 'Roboto', sans-serif;
-    max-width: 1849;
+body {
+  background-color: #212529;
+  background-color: #212529;
+  font-family: "Roboto", sans-serif;
 }
-div{
-    margin:auto;
-    color: white;
-    font-size: 28px;
-    
+div {
+  color: white;
+  font-size: 28px;
 }
-section{
-    display: flex;
-    width: 673px;
-    padding-bottom:110px ;
-    margin: 0 0 0 295px;
+header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 55%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 nav ul {
-    list-style-type: none;
-    display: flex;
-    margin: 0%;
-    padding: 5%;
-   justify-content: flex-end;
-   margin-bottom: 10px;
-   font-size: 16px;
-  
-   
+  list-style-type: none;
+  display: flex;
+
+  margin-bottom: 10px;
+  font-size: 16px;
 }
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    
+nav a {
+  color: white;
+  text-decoration: none;
 }
-li{
-    padding: 5px;
-}
-.example1{
-    border-bottom: 5px solid white;
-    
-}
-h3{
-    margin-left:20% ;
-    color: white;
-}
-header{
-    text-align: center;
-    color: white;
-    margin: auto;
-}
-h1{
-    font-size: 2.5rem;
-}
-header{
-    margin-top: 20px;
-}
- header button{
-    padding: 12px 20px 12px 20px;
-    background-color: white;  
-    border-radius: 7px;
-    font-weight: bold;
-    font-size: 15px;
-}
-.example2:hover{
-    border-bottom: 5px solid silver;
+li {
+  padding: 5px;
   
 }
-footer{
-    justify-content: center;
-    display: flex;
-    margin: 120px 0 0 0 ;
-    padding: 10px;
-    color: rgb(248, 248, 248);
+a:hover {
+  border-bottom: 5px solid silver;
 }
-@media (max-width:667px){
-    
-div {
-    margin-left: 80px;
+.example1 {
+  border-bottom: 5px solid white;
 }
+h3 {
+  margin-left: 20%;
+  color: white;
 }
-
-@media (max-width:567px){
-    
-    div{
-        margin-left: 90%;
-
-    }
-    }
-    
-@media (max-width:667px){
-    
-    ul{
-        margin-left: 50%;
-    }
-    }
+main {
+  text-align: center;
+  color: white;
+  margin: auto;
+}
+h1 {
+  font-size: 2rem;
+}
+main {
+  margin-top: 100px;
+}
+main button {
+  padding: 12px 20px 12px 20px;
+  background-color: white;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 15px;
+  outline: none;
+}
+footer {
+  justify-content: center;
+  display: flex;
+  margin-top: 200px;
+}
+footer p {
+  color: rgba(0, 0, 0, 0.5);
+}
+ .footer {
+  color: white;
+  padding-bottom: 5%;
+}
+@media (max-width: 720px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
